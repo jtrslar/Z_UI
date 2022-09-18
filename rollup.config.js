@@ -5,7 +5,7 @@ import { terser } from 'rollup-plugin-terser'
 export default {
 	input: 'src/components/index.js',
 	output: {
-		file: 'lib/zui.js',
+		file: 'dist/zui.js',
 		exports: 'auto',
 	},
 	plugins: [
